@@ -1,0 +1,16 @@
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\bin\Debug\net5.0\Day3GroceryListExercise.exe
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\bin\Debug\net5.0\Day3GroceryListExercise.deps.json
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\bin\Debug\net5.0\Day3GroceryListExercise.runtimeconfig.json
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\bin\Debug\net5.0\Day3GroceryListExercise.runtimeconfig.dev.json
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\bin\Debug\net5.0\Day3GroceryListExercise.dll
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\bin\Debug\net5.0\ref\Day3GroceryListExercise.dll
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\bin\Debug\net5.0\Day3GroceryListExercise.pdb
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.csproj.AssemblyReference.cache
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.AssemblyInfoInputs.cache
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.AssemblyInfo.cs
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.csproj.CoreCompileInputs.cache
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.dll
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\ref\Day3GroceryListExercise.dll
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.pdb
+C:\Users\eetu\source\repos\Day3GroceryListExercise\Day3GroceryListExercise\obj\Debug\net5.0\Day3GroceryListExercise.genruntimeconfig.cache
