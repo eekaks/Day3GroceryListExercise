@@ -25,39 +25,49 @@ namespace Day3GroceryListExercise
                 }
                 else if (userInput == "1")
                 {
-                    if (File.Exists(path))
-                    {
-                        using (StreamReader sr = File.OpenText(path))
-                        {
-                            string line = String.Empty;
-
-                            while ((line = sr.ReadLine()) != null)
-                            {
-                                Console.WriteLine(line);
-                            }
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("File doesn't exist.");
-                    }
+                    PrintItems(path);
                 }
                 else
                 {
-                    if (!File.Exists("groceries.txt"))
-                        using (StreamWriter sw = File.CreateText(path))
-                        {
-                            sw.WriteLine(userInput);
-                        }
-                    else
-                    {
-                        using (StreamWriter sw = File.AppendText(path))
-                        {
-                            sw.WriteLine(userInput);
-                        }
-                    }
+                    AddItem(path, userInput);
                 }
                 Console.WriteLine();
+            }
+        }
+
+        public static void AddItem(string path, string userInput)
+        {
+            if (!File.Exists("groceries.txt"))
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine(userInput);
+                }
+            else
+            {
+                using (StreamWriter sw = File.AppendText(path))
+                {
+                    sw.WriteLine(userInput);
+                }
+            }
+        }
+
+        public static void PrintItems(string path)
+        {
+            if (File.Exists(path))
+            {
+                using (StreamReader sr = File.OpenText(path))
+                {
+                    string line = String.Empty;
+
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("File doesn't exist.");
             }
         }
         
