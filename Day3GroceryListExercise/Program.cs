@@ -25,14 +25,21 @@ namespace Day3GroceryListExercise
                 }
                 else if (userInput == "1")
                 {
-                    using (StreamReader sr = File.OpenText(path))
+                    if (File.Exists(path))
                     {
-                        string line = String.Empty;
-
-                        while ((line = sr.ReadLine()) != null)
+                        using (StreamReader sr = File.OpenText(path))
                         {
-                            Console.WriteLine(line);
+                            string line = String.Empty;
+
+                            while ((line = sr.ReadLine()) != null)
+                            {
+                                Console.WriteLine(line);
+                            }
                         }
+                    }
+                    else
+                    {
+                        Console.WriteLine("File doesn't exist.");
                     }
                 }
                 else
