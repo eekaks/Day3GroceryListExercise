@@ -58,6 +58,9 @@ namespace Day3GroceryListExercise
                 using (StreamReader sr = File.OpenText(path))
                 {
                     string line = String.Empty;
+                    Console.WriteLine();
+                    DateTime fileCreated = File.GetCreationTime(path);
+                    Console.WriteLine("Grocery list created: " + fileCreated);
 
                     while ((line = sr.ReadLine()) != null)
                     {
@@ -67,6 +70,7 @@ namespace Day3GroceryListExercise
             }
             else
             {
+                Console.WriteLine();
                 Console.WriteLine("File doesn't exist.");
             }
         }
